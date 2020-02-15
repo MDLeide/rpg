@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPG
+namespace RPG.Constants
 {
-    public class Class1
+    public static class SkillNames
     {
+        public static string Speed { get; } = "speed";
     }
 }
